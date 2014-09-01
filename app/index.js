@@ -85,7 +85,6 @@ BourbonGenerator.prototype.scaffolding = function scaffolding() {
   this.mkdir('src/templates/partials');
 
   this.copy('src/htaccess', 'src/.htaccess');
-  this.copy('src/404.html', 'src/404.html');
   this.copy('src/_!-edit-template-files-not-html', 'src/_!-edit-template-files-not-html');
   this.copy('src/apple-touch-icon-precomposed.png', 'src/apple-touch-icon-precomposed.png');
   this.copy('src/crossdomain.xml', 'src/crossdomain.xml');
@@ -113,9 +112,10 @@ BourbonGenerator.prototype.scaffolding = function scaffolding() {
   this.copy('src/js/app.js', 'src/js/app.js');
   this.copy('src/js/console.js', 'src/js/console.js');
 
+  this.copy('src/templates/layouts/blank.hbs', 'src/templates/layouts/blank.hbs');
   this.copy('src/templates/layouts/default.hbs', 'src/templates/layouts/default.hbs');
   this.copy('src/templates/pages/index.hbs', 'src/templates/pages/index.hbs');
-  this.copy('src/templates/pages/page.hbs', 'src/templates/pages/page.hbs');
+  this.copy('src/templates/pages/404.hbs', 'src/templates/pages/404.hbs');
   this.copy('src/templates/partials/footer.hbs', 'src/templates/partials/footer.hbs');
   this.copy('src/templates/partials/header.hbs', 'src/templates/partials/header.hbs');
 

@@ -1,0 +1,34 @@
+{
+  "name": "generator-bourbon",
+  "version": "0.0.1",
+  "description": "Yeoman generator for scaffolding out a web project using Bourbon, Bourbon Neat, and Bitters.",
+  "keywords": [
+    "bourbon",
+    "neat",
+    "bitters",
+    "yeoman",
+    "yeoman-generator"
+  ],
+  "homepage": "https://github.com/jeffwhitfield/generator-bourbon",
+  "author": {
+    "name": "Jeff Whitfield",
+    "email": "jeff@soulcraftgroup.com",
+    "url": "https://github.com/jeffwhitfield"
+  },
+  "main": "app/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jeffwhitfield/generator-bourbon.git"
+  },
+  "dependencies": {
+    "yeoman-generator": "^0.17.0"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ]
+}
